@@ -1,0 +1,149 @@
+/* GENERAL */
+html body {
+	font-family: CryptoG10, Arial, sans-serif !important;
+}
+body {
+	font-family: CryptoG10, Arial, sans-serif !important;
+}
+.navbar-brand {
+	font-family: Spy-Agency, Arial, sans-serif !important;
+}
+
+/* ANCHOR */
+/* main {
+	padding-top: 56px;
+}
+
+section {
+	margin-top: -56px;
+	padding-top: 56px;
+} */
+.anchor {
+	display: block;
+	min-height: 56px;
+	margin-top: -56px;
+	visibility: hidden;
+}
+
+/* NAVBAR */
+header {
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+html:not([data-scroll='0']) header {
+	box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
+}
+
+.ml-auto, .mx-auto {
+	margin-left: auto !important;
+ }
+ .mr-auto, .mx-auto {
+	margin-right: auto !important;
+ }
+
+/* HEADER */
+#header .header-intro {
+	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
+}
+
+#header .logo-container img{
+	width: 100%;
+}
+
+.header-cards .card {
+	overflow: hidden;
+	height: 100%;
+}
+.header-cards .card .card-text {
+	font-size: 0.96rem;
+}
+
+/* MAIN */
+main {
+	margin-top: 64px;
+}
+
+main .bg-paralax {
+	background-image: url('../images/sep01.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#owr-games .card .card-text img {
+	width: 70%;
+}
+
+#owr-games .carousel .card .card-text img {
+	width: 100%;
+}
+
+/* COLORS */
+.bg-gray-custom {
+	background-color: #191919 !important;
+}
+
+.bg-primary-custom {
+	color: #69BE28;
+}
+
+.text-primary-custom {
+	color: #69BE28;
+}
+
+/* FOOTER */
+footer ul {
+	list-style: none;
+}
+
+/* CUSTOMIZATION */
+.list-group-item {
+	background-color: initial;
+	border-color: rgba(255,255,255,.125);
+}
+
+/* CUSTOM BTNS */
+.btn-success {
+	color: #fff;
+	background-color: #69BE28;
+	border-color: #69BE28;
+}
+
+/* BREAKPOINTS */
+/* sm */
+
+/* md */
+@media (min-width: 768px) {
+	#header .logo-container {
+		position: absolute;
+		z-index: -1;
+	}
+
+	#header h1.header-intro {
+		font-size: 2.25rem;
+	}
+
+	#header h2.header-intro {
+		font-size: 1.95rem;
+	}
+}
+
+/* lg */
+@media (min-width: 992px) {
+	#header {
+		min-height: calc(65vh - 56px);
+	}
+	
+	#header h1.header-intro {
+		font-size: 3.5rem;
+	}
+
+	#header h2.header-intro {
+		font-size: 3rem;
+	}
+}

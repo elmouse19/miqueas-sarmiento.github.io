@@ -1,0 +1,68 @@
+#head .cv-name {
+	text-transform: uppercase;
+}
+
+#head img {
+	border-radius: 50%;
+}
+
+#exp .exp-item:not(:last-child) {
+	border-bottom: 1px solid rgb(33, 37, 41, .25);
+}
+
+#exp .exp-item .jobs:not(:last-child) {
+	margin-bottom: 1;
+	padding: 0 0 1.2rem 0;
+}
+
+#exp .exp-item .bussiness_logo img {
+	width: 75px;
+}
+
+#exp .exp-item .bussiness_logo .no-bussiness {
+	padding: 20px;
+	font-size: 35px;
+	width: 75px;
+	height: 75px;
+	text-align: center;
+}
+
+
+/* JOBS LIST */
+#exp .exp-item .jobs .job-item {
+	position: relative;
+}
+
+#exp .exp-item .jobs .job-item::before {
+	border: 5px solid #1c7bba;
+	box-shadow: 0 0 0 5px rgba(28,123,186,0.2);
+	border-radius: 50%;
+	position: absolute;
+	content: '';
+	z-index: 99;
+	right: 15px;
+	top: 8px;
+}
+
+#exp .exp-item .jobs .job-item:not(.last-job)::after {
+	border: 2px solid #1c7bba;
+	/* box-shadow: 0 0 0 5px rgba(28,123,186,0.2); */
+	/* border-radius: 50%; */
+	position: absolute;
+	content: '';
+	z-index: 99;
+	right: 18px;
+	top: 2.2rem;
+	bottom: 0;
+}
+
+
+ /* FUENTES */
+.roboto {
+	font-family: 'Roboto', sans-serif;
+}
+
+	/* COLORES */
+.fc80 {
+	color: #808080 !important;
+}
