@@ -6,10 +6,6 @@
 	border-radius: 50%;
 }
 
-#exp .exp-item:not(:last-child) {
-	border-bottom: 1px solid rgb(33, 37, 41, .25);
-}
-
 #exp .exp-item .jobs:not(:last-child) {
 	margin-bottom: 1;
 	padding: 0 0 1.2rem 0;
@@ -56,6 +52,11 @@
 	bottom: 0;
 }
 
+/* SIDE */
+#side .section-header {
+	line-height: 2.9rem;
+}
+
 
  /* FUENTES */
 .roboto {
@@ -65,4 +66,8 @@
 	/* COLORES */
 .fc80 {
 	color: #808080 !important;
+}
+
+.uppercase {
+	text-transform: uppercase;
 }
