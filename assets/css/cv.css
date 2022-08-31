@@ -57,6 +57,41 @@
 	line-height: 2.9rem;
 }
 
+#side #education p {
+	margin-bottom: 0.2rem !important;
+	position: relative;
+}
+
+#side #education p::before {
+	font: normal normal normal 14px/1 FontAwesome;
+	position: absolute;
+	left: -2.2rem;
+	top: 5px;
+}
+
+#side #habilities h4 {
+	line-height: 35px;
+}
+
+#side #education p.school::before {
+	content: '\f549';
+}
+
+#side #education p.graduation::before {
+	content: '\f19d';
+}
+
+#side #education p.balanced::before {
+	content: '\f24e';
+}
+
+#side #education p.scroll::before {
+	content: '\f70e';
+}
+
+#side #education p.calendar::before {
+	content: '\f073';
+}
 
  /* FUENTES */
 .roboto {
