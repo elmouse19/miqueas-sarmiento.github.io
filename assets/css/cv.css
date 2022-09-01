@@ -6,16 +6,20 @@
 	border-radius: 50%;
 }
 
-#exp .exp-item .jobs:not(:last-child) {
+/* EXP */
+#exp .exp-item .jobs:not(:last-child),
+#exp-indie .exp-item .jobs:not(:last-child) {
 	margin-bottom: 1;
 	padding: 0 0 1.2rem 0;
 }
 
-#exp .exp-item .bussiness_logo img {
+#exp .exp-item .bussiness_logo img,
+#exp-indie .exp-item .bussiness_logo img {
 	width: 75px;
 }
 
-#exp .exp-item .bussiness_logo .no-bussiness {
+#exp .exp-item .bussiness_logo .no-bussiness,
+#exp-indie .exp-item .bussiness_logo .no-bussiness {
 	padding: 20px;
 	font-size: 35px;
 	width: 75px;
@@ -25,11 +29,13 @@
 
 
 /* JOBS LIST */
-#exp .exp-item .jobs .job-item {
+#exp .exp-item .jobs .job-item,
+#exp-indie .exp-item .jobs .job-item {
 	position: relative;
 }
 
-#exp .exp-item .jobs .job-item::before {
+#exp .exp-item .jobs .job-item::before,
+#exp-indie .exp-item .jobs .job-item::before {
 	border: 5px solid #1c7bba;
 	box-shadow: 0 0 0 5px rgba(28,123,186,0.2);
 	border-radius: 50%;
@@ -40,10 +46,9 @@
 	top: 8px;
 }
 
-#exp .exp-item .jobs .job-item:not(.last-job)::after {
+#exp .exp-item .jobs .job-item:not(.last-job)::after,
+#exp-indie .exp-item .jobs .job-item:not(.last-job)::after {
 	border: 2px solid #1c7bba;
-	/* box-shadow: 0 0 0 5px rgba(28,123,186,0.2); */
-	/* border-radius: 50%; */
 	position: absolute;
 	content: '';
 	z-index: 99;
